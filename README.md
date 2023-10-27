@@ -1,81 +1,33 @@
+# EinfachCHatPDF
 
-`# Ultimatives Frontend-Template  ![Vorschau](https://cdn.discordapp.com/attachments/797485737272541250/952208625806495815/image_5.png)  > Die meisten Elemente stammen von [meiner Webseite](https://einfachalex.net).  [![Mit Vercel bereitstellen](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=Einfachalf/TemplateCSS)  ## Inhaltsstoffe ✨:  - NextJS 🚀 - TailwindCSS 🦄 - Typescript 🦺 - Unterstützung für den Dunkelmodus 🌓 - ESLint + Prettier Konfiguration 📂 - Husky 🐶 - Selbst gehostete Inter-Schriftart ␊  Im Ordner _components_ verwende für jede deiner Seiten den Container, da er einen wiederverwendbaren Ausgangspunkt für jede Seite bietet.  ```jsx <Container>...SeitenElemente</Container>`
+Erstellen Sie einen QnA-Chatbot für Ihre Dokumente, ohne sich auf das Internet verlassen zu müssen, indem Sie die Fähigkeiten lokaler LLMs nutzen. Gewährleisten Sie vollständige Privatsphäre und Sicherheit, da keine Ihrer Daten jemals Ihre lokale Ausführungsumgebung verlässt. Verarbeiten Sie Ihre Dokumente nahtlos und fragen Sie sie auch ohne Internetverbindung ab. 
 
-Erste Schritte
---------------
+<img width="948" alt="pgpt" src="https://github.com/SamurAIGPT/privateGPT/assets/4326215/76e24cd4-a890-4253-bb87-098c4f1328fd">
 
-1.  Mit 'Als Vorlage verwenden' im Repository ![Vorschau](https://cdn.discordapp.com/attachments/797485737272541250/952208604386189332/Group_11.png)
-    
-2.  Das Projekt klonen
-    
+## Inhaltsverzeichnis
 
-bashCopy code
+* [Erste Schritte](#erste-schritte)
+* [Anforderungen](#anforderungen)
+* [Ausführung](#ausführung)
+* [Unterstützung](#unterstützung)
+* [Daten](#daten)
+* [Repos überprüfen](#repos-überprüfen)
 
-`# http git clone https://github.com/Einfachalf/TemplateCSS.git`
+## Erste Schritte
 
-bashCopy code
+Der Code ist online, ⭐ (Stern) das Repo in der Zwischenzeit, um Updates zu erhalten.
 
-`# ssh git clone git@github.com:Einfachalf/TemplateCSS.git`
+Folgen Sie [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur Singh](https://twitter.com/ankur_maker) auf Twitter für Updates.
 
-3.  Mit `create-next-app`
+## Anforderungen
 
-luaCopy code
+* Python 3.8 oder neuer
+* NodeJS v18.12.1 oder neuer
+* Mindestens 16GB Arbeitsspeicher
 
-`npx create-next-app -e https://github.com/Einfachalf/TemplateCSS Projektname`
+## Ausführung
 
-Installiere die erforderlichen Pakete und starte die Vorlage
+1. Gehen Sie zum Client-Ordner und führen Sie die folgenden Befehle aus:
 
-bashCopy code
-
-`cd Projektname yarn install`
-
-Inbegriffen
------------
-
-### Benutzerdefinierte classNames-Funktion
-
-> Unter `/lib/classNames`
-
-### Pakete
-
-1.  Next-Themes: Eine Abstraktion für Themes in deiner Next.js-App.
-2.  react-use: react-hooks
-
-### Benutzerdefinierte globals.css
-
-1.  Benutzerdefinierte Unterstreichung
-2.  Vercel-Navigationsleiste
-3.  Behebt Firefox-, Edge- und IE-Bugs bei Überläufen
-
-### Absolute Importe
-
-javascriptCopy code
-
-`import TextField from '../../../components/TextField.tsx'`
-
-ändert sich zu
-
-javascriptCopy code
-
-`import TextField from 'components/TextField.tsx'`
-
-### SEO-Optimierung in `Container.tsx`
-
-### Ordnerstruktur & Organisation
-
-> Unter `/components/` & `/public/`
-
-### Selbst gehostete Inter-Schriftart
-
-> Unter `/public/fonts/`
-
-### 404-Seite
-
-### Favicons und weitere Konfigurationen
-
-> Unter `/public/static/favicons/`
-
-![Vorschau](https://cdn.discordapp.com/attachments/797485737272541250/952211815046197278/Frame_7.png)
-
-
-
+   ```shell
+   npm install   
