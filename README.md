@@ -30,4 +30,12 @@ Folgen Sie [Anil Chandra Naidu Matcha](https://twitter.com/matchaman11) & [Ankur
 1. Gehen Sie zum Client-Ordner und führen Sie die folgenden Befehle aus:
 
    ```shell
-   npm install   
+   npm install
+
+   npm run dev
+
+pip install -r requirements.txt
+
+python privateGPT.py
+
+
